@@ -1,0 +1,12 @@
+{
+  "_comment": "Copy to question_map.json and replace with your real mappings. This file is gitignored.",
+  "_description": "Maps the last successful step value (from your consumer details attribute) to the question the customer failed on next. The key is the last successful step value; the value is the human-readable question label used in reporting.",
+
+  "none": "initial verification question",
+  "step_one": "second question",
+  "step_two": "third question",
+  "step_three": "fourth question",
+  "step_complete": "DATA NOT MATCHING",
+  "_default": "different question",
+  "_missing": "missing value"
+}
